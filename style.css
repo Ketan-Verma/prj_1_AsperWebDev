@@ -1,0 +1,204 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding:0 ;
+    background-image: url("/assets/bekky-bekks-wFgEAQck6mw-unsplash.jpg");
+    background-size: cover;
+    z-index: 0;
+}
+nav{
+    position:relative;
+    top: 10px;
+    width: 100%;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding-right:10px ;
+}
+.navbar li{
+    margin:0.2em 1em ;
+}
+.something{
+
+    padding:0.2em 1em ;
+}
+.navbar{
+    
+    z-index: 1;
+    background-color: rgb(250, 250,250);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid rgb(228, 226, 226);
+}
+nav button{
+    margin: 0;
+    padding: 1.5em;
+    cursor: pointer;
+}
+.search button{
+    border: none;   
+    color: White;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+nav input{
+    border: none;   
+    background-color: rgb(238, 238, 238);
+    float: left;
+    margin: 0;
+    padding: 1.5em;
+}
+.searchbar{
+    background-color: rgb(250, 250,250);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.35em;
+}
+.search{
+    margin: 1em;
+}
+.sign{
+    display: flex;
+    margin: 1em;
+    
+}
+#SignIn{
+    background-color: white;
+    border: none;
+}
+#SignUp{
+    background-color: white;
+    border: solid rgb(228, 226, 226);
+    
+}
+.sign button{
+    font-weight: bold;
+}
+.first{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: white;
+    padding: 3em 2em 2em 2em;
+}
+/* .first */
+ h1{
+    font-size: 5em;
+}
+h3{
+    font-size: 2.5em;
+}
+.firstbtns{
+    text-align: center;
+    margin: 3em;
+}
+.firstbtns button{
+    background-color: #ddd;
+    color: black;
+    min-width:250px ;
+    padding: 1.3em 1.4em;
+    border-radius:15%/70% ;
+    margin: 2em;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+.firstbtns .btn1{
+    border: none;
+    background-color: rgb(255, 220, 24);
+    box-shadow: 0 6px 25px rgb(0, 0, 0,  0.55);
+}
+.firstbtns .btn2{
+    border: white solid;
+    background: rgb(201, 43, 43);
+    color: white;
+}
+.second{
+    background-color: white;
+    text-align: center;
+    padding: 5em;    
+}
+.second div{
+    width: 70%;
+    margin: auto;
+}
+.third{
+    
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 4em;    
+    color: white;    
+}
+.third h3{
+    font-size: 3.5em;
+}
+.fourth{
+    padding-top:3.3em ;
+    padding-bottom:4.3em ;
+    background-color: white;
+    text-align: center;
+    color:black;
+}
+.fourth h2{
+    width: 70%;
+    margin: auto;
+    font-size: 2.5em;
+}
+footer{
+    border-top: solid rgb(228, 226, 226);
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.3em;
+    font-size: 1.25em;
+    bottom: 10px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer h4{
+    font-weight: bold;
+}
+footer li{
+    margin:1em 0em;
+    font-size: 0.9em;
+
+}
+footer li{
+    cursor: pointer;
+    color: solid rgb(228, 226, 226);
+}
+@media screen and (max-width: 600px) {
+    .something{display: none;}
+    .searchbar{
+        flex-direction: column;
+        /* justify-content: s; */
+    }
+  
+  .navbar ul{
+      overflow: hidden;
+      width: 100%;
+  }
+  footer{
+      text-align: center;
+      flex-direction: column;
+  }
+  h1{
+      font-size: 3em; 
+    }
+    p{
+        font-size: 2em; 
+        
+  }
+}
+p{
+    font-size: 1.5em;
+}
