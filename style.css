@@ -177,18 +177,34 @@ footer li{
     color: solid rgb(228, 226, 226);
 }
 @media screen and (max-width: 600px) {
+    
     .something{display: none;}
     .searchbar{
         flex-direction: column;
         /* justify-content: s; */
     }
-  
+    .container{
+        /* padding: 0.5em; */
+        min-width: fit-content;
+    }
+  .second{
+      padding: 0.75em;
+  }
+  .third h3{
+      font-size: 2em;
+  }
+  .third{
+      padding: 1em;
+  }
   .navbar ul{
       overflow: hidden;
       width: 100%;
   }
+  .fourth h2{
+    font-size: 2em;
+  }
   footer{
-      text-align: center;
+      text-align: left;
       flex-direction: column;
   }
   h1{
